@@ -3,11 +3,10 @@
 #include <stdio.h>
 
 /**
- * main function to check if the number is greater than 5 and less
- * blalbla
+ *main- to print "Programming is like building a multilingual puzzle
  *
- * return satement will be zero if it goes well
- */
+ * Return: 0 if exited properly, non-zero otherwise
+*/
 int main(void)
 {
 	int n;
