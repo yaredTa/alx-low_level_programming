@@ -13,7 +13,7 @@ char a;
 for (c = 0; c < 10; c++)
 putchar(c + '0');
 
-for (a = 'a'; a <= f; a++)
+for (a = 'a'; a <= 'f'; a++)
 putchar(a);
 
 putchar('\n');
