@@ -3,9 +3,11 @@
 #include <stdio.h>
 
 /**
-*main is to idenetify the number is negative positive or zero
-*return 0 if the code exit fine
-*/
+ *main- to print "Programming is like building a multilingual puzzle
+ * 
+ *Return: 0 if exited properly, non-zero otherwise 
+ */
+
 int main(void)
 {
 	int n;
