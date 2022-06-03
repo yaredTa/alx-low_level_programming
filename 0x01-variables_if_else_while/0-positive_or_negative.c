@@ -2,7 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
 *main is to idenetify the number is negative positive or zero
 *return 0 if the code exit fine
 */
