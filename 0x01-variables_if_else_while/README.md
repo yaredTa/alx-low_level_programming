@@ -1,0 +1,1 @@
+0-positive_or_negative will give as wheter the number n is positive or negative
