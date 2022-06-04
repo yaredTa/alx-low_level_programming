@@ -22,7 +22,11 @@ for (e = d + 1 ; e < 10 ; e++)
 putchar(c + '0');
 putchar(d + '0');
 putchar(e + '0');
-if (c != 7 && d != 8 && e != 9)
+if (c == 7 && d == 8)
+{
+
+}
+else
 {
 putchar(',');
 putchar(' ');
