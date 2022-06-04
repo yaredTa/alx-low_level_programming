@@ -20,16 +20,20 @@ for (d = c + 1 ; d < 9 ; d++)
 for (e = d + 1 ; e < 10 ; e++)
 {
 if (c == 7 && d == 8 && e == 9)
+{
 putchar(c + '0');
 putchar(d + '0');
 putchar(e + '0');
+}
 
 else
+{
 putchar(c + '0');
 putchar(d + '0');
 putchar(e + '0');
 putchar(',');
 putchar(' ');
+}
 }
 }
 }
