@@ -14,7 +14,7 @@ int d;
 
 for (c = 0; c < 9; c++)
 {
-for(d = c+1 ;d < 10 ; d++)
+for (d = c + 1 ; d < 10 ; d++)
 {
 if (c == 8 && d == 9)
 printf("%d%d", c, d);
