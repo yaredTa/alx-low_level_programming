@@ -8,9 +8,8 @@
  * Return: 0 if exited properly, non-zero otherwise
 */
 
-int main()
-{  
-
+int main(void)
+{
 _putchar('_');
 _putchar('p');
 _putchar('u');
