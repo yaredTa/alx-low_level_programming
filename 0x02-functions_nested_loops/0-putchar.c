@@ -10,10 +10,16 @@
 
 int main()
 {  
-char b[] ="_putchar";
-for(int i = 0; i < sizeof b / sizeof *b; i++ )
-putchar(b[i]);
-putchar('\n');
+
+_putchar('_');
+_putchar('p');
+_putchar('u');
+_putchar('t');
+_putchar('c');
+_putchar('h');
+_putchar('a');
+_putchar('r');
+_putchar('\n');
 
 return (0);
 }
