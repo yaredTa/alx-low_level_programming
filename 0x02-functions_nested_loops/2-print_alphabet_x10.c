@@ -3,11 +3,11 @@
 #include "main.h"
 
 /**
- *main- to print "Programming is like building a multilingual puzzle
+ *main- to print print_alphabet_x10
  *
  * Return: 0 if exited properly, non-zero otherwise
 */
-void print_alphabet_x10 (void)
+void print_alphabet_x10(void)
 {
 
 int b = 1;
