@@ -30,7 +30,7 @@ _putchar(f + '0');
 
 
 }
-else if (f >- 10) 
+else if (f >= 10) 
 {
 _putchar(',');
 _putchar(' ');
