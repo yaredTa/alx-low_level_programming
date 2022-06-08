@@ -12,7 +12,7 @@ int m = 0;
 while (m <= 2)
 {
 int n = 0;
-  
+
 while ((n <= 9 && m <= 1) || (n <= 3 && m <= 2))
 {
 int p = 0;
