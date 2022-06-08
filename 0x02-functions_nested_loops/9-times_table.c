@@ -21,7 +21,7 @@ if (f == 0)
 {
 _putchar(f + '0');
 }
-else if (f < 10)
+else if (f < 10 && f != 0)
 {
 _putchar(',');
 _putchar(' ');
@@ -30,7 +30,7 @@ _putchar(f + '0');
 
 
 }
-else
+else if (f >- 10) 
 {
 _putchar(',');
 _putchar(' ');
