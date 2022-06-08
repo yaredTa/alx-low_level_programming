@@ -3,7 +3,8 @@
 #include "main.h"
 
 /**
- *print print_alphabet_x10 is to print the alpahbet in lower case 10 times
+ * print print_alphabet_x10 is to print the alpahbet in lower case 10 times
+ * followed by a new line
  *
 */
 void print_alphabet_x10(void)
