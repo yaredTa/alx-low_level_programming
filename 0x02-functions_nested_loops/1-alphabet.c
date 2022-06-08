@@ -3,9 +3,8 @@
 #include "main.h"
 
 /**
- *main- to print print_alphabet
+ *print print_alphabet to print alphabet in lower case
  *
- * Return: 0 if exited properly, non-zero otherwise
 */
 void print_alphabet(void)
 {

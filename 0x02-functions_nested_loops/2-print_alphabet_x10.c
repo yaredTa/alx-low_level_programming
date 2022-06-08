@@ -3,9 +3,8 @@
 #include "main.h"
 
 /**
- *main- to print print_alphabet_x10
+ *print print_alphabet_x10 is to print the alpahbet 10 times
  *
- * Return: 0 if exited properly, non-zero otherwise
 */
 void print_alphabet_x10(void)
 {
