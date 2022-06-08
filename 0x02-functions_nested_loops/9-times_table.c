@@ -1,5 +1,3 @@
-#include <stdio.h>
-#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -7,39 +5,32 @@
  */
 void times_table(void)
 {
-int n = 0;
-int f;
+	int i, j, k;
 
-while (n < 10)
-{
-int m = 0;
-while (m < 10)
-{
+	for (i = 0; i < 10; i++)
+	{
+		for (j = 0; j < 10; j++)
+		{
+			k = j * i;
+			if (j == 0)
+			{
+				_putchar(k + '0');
+			}
 
-f = n * m;
-if (f == 0)
-{
-_putchar(f + '0');
-}
-if (f < 10 && f != 0)
-{
-_putchar(',');
-_putchar(' ');
-_putchar(' ');
-_putchar(f + '0');
-
-
-}
-else if (f >= 10) 
-{
-_putchar(',');
-_putchar(' ');
-_putchar((f / 10) + '0');
-_putchar((f % 10) + '0');
-}
-m++;
-}
-_putchar('\n');
-n++;
-}
+			if (k < 10 && j != 0)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar(' ');
+				_putchar(k + '0');
+			} else if (k >= 10)
+			{
+				_putchar(',');
+				_putchar(' ');
+				_putchar((k / 10) + '0');
+				_putchar((k % 10) + '0');
+			}
+		}
+		_putchar('\n');
+	}
 }
