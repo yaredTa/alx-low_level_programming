@@ -17,9 +17,20 @@ while (m < 10)
 {
 
 f = n * m;
+if (f < 10)
+{
 _putchar(f + '0');
 _putchar(',');
 _putchar(' ');
+_putchar(' ');
+}
+else
+{
+_putchar(',');
+_putchar(' ');
+_putchar((k / 10) + '0');
+_putchar((k % 10) + '0');
+}
 m++;
 }
 _putchar('\n');
