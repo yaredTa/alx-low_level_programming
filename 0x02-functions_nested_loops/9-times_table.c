@@ -18,6 +18,8 @@ while (m < 10)
 
 f = n * m;
 _putchar(f + '0');
+_putchar(',');
+_putchar(' ');
 m++;
 }
 n++;
