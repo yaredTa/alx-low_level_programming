@@ -5,6 +5,7 @@
 /**
  * _abs - computes the absolute value of an integer
  * @n: the int to check
+ * return - returns the absolute value of the number
  */
 int _abs(int n)
 {
