@@ -4,13 +4,13 @@
 
 /**
  * add - adds two integers and returns the result
- * @a: int to be added to n
- * @b: int to be added to m
- * Return: sum of n and m
+ * @a: int to be added to a
+ * @b: int to be added to b
+ * Return: sum of a and b
  */
-int add(int n, int m)
+int add(int a, int b)
 {
 int p;
-p = n + m;
+p = a + b;
 return (p);
 }
