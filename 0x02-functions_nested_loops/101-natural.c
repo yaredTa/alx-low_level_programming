@@ -31,6 +31,6 @@ _putchar((f / 100) + '0');
 _putchar(((f / 10) % 10) + '0');
 _putchar((f % 10) + '0');
 }
-
+_putchar('\n');
 return (0);
 }
