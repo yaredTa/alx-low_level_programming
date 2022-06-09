@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 #include "main.h"
 
 /**
@@ -16,5 +17,6 @@ if (i % 3 == 0 || i % 5 == 0)
 f += i;
 }
 }
-printf("%d", f);
+printf("%d\n", f);
+return (0);
 }
