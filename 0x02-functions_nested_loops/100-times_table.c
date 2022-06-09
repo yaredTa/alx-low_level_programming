@@ -12,6 +12,7 @@ void print_times_table(int n)
 int f;
 int i = 0;
 int j = 0;
+int b;
 if (n > 0 && n <=15)
 {
 while (i <= n)
@@ -34,18 +35,24 @@ else if (f >= 10 && f < 100)
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
-_putchar(f + '0');
+_putchar(f / 10 + '0');
+_putchar(f % 10 + '0');
+
 }
 else if (f >= 100)
 {
 _putchar(',');
 _putchar(' ');
-_putchar(f + '0');
-}
+_putchar(f/100 + '0');
+b = f % 100;
+_putchar(b / 10 + '0');
+_putchar(b % 10 + '0');
 }
 j++;
 }
 i++;
 _putchar('\n');
+}
+
 }
 }
