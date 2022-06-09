@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
- * print_times_table - prints the time table n time, starting with 0
- * followed by a new line
- * @n: print tabel n times
+ * main - computes and prints the sum of all the multiples
+ * of 3 or 5 below 1024
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
