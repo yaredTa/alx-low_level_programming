@@ -18,6 +18,19 @@ f += i;
 }
 i++;
 }
-printf("%d\n", f);
+if (i < 10)
+_putchar(f + '0');
+else if (i >= 10 && i <100)
+{
+_putchar(f / 10 + '0');
+_putchar(f % 10 + '0');
+}
+else
+{
+_putchar((f / 100) + '0');
+_putchar(((f / 10) % 10) + '0');
+_putchar((f % 10) + '0');
+}
+
 return (0);
 }
