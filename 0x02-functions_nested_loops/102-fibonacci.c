@@ -7,7 +7,7 @@
  */
 int main(void)
 {
-	int i, j, f, g;
+	unsigned long int i, j, f, g;
 
 	j = 1;
 	f = 2;
@@ -15,12 +15,17 @@ int main(void)
 
 	while (i <= 50)
 	{
-    printf("%d\n", j);
-
-	g = j + f;
-	j = f;
-	f = g;
-	i++;
+		if (j != 20365011074)
+		{
+			printf("%ld, ", j);
+		} else
+		{
+			printf("%ld\n", j);
+		}
+		g = j + f;
+		j = f;
+		f = g;
+		i++;
 	}
 
 	return (0);
