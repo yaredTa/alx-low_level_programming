@@ -9,18 +9,15 @@
 
 void print_times_table(int n)
 {
-int f;
-int i = 0;
-
-int b;
-if (n > 0 && n <=15)
+int f, i = 0;
+if (n > 0 && n <= 15)
 {
 while (i <= n)
 {
 int j = 0;
 while (j <= n)
 {
-f = i*j;
+f = i * j;
 if (j == 0)
 _putchar(f + '0');
 if (f < 10 && j != 0)
@@ -38,22 +35,19 @@ _putchar(' ');
 _putchar(' ');
 _putchar(f / 10 + '0');
 _putchar(f % 10 + '0');
-
 }
 else if (f >= 100)
 {
 _putchar(',');
 _putchar(' ');
-_putchar(f/100 + '0');
-b = f % 100;
-_putchar(b / 10 + '0');
-_putchar(b % 10 + '0');
+_putchar(f / 100 + '0');
+_putchar((f % 100) / 10 + '0');
+_putchar((f % 100) % 10 + '0');
 }
 j++;
 }
 i++;
 _putchar('\n');
 }
-
 }
 }
