@@ -4,13 +4,13 @@
 /**
  * print_times_table - prints the time table n time, starting with 0
  * followed by a new line
- * @n: print tabel n times 
+ * @n: print tabel n times
  */
 
 void print_times_table(int n)
 {
 int f, i = 0;
-if (n > 0 && n <= 15)
+if (n >= 0 && n <= 15)
 {
 while (i <= n)
 {
@@ -27,16 +27,14 @@ _putchar(' ');
 _putchar(' ');
 _putchar(' ');
 _putchar(f + '0');
-}
-else if (f >= 10 && f < 100)
+} else if (f >= 10 && f < 100)
 {
 _putchar(',');
 _putchar(' ');
 _putchar(' ');
 _putchar(f / 10 + '0');
 _putchar(f % 10 + '0');
-}
-else if (f >= 100)
+} else if (f >= 100)
 {
 _putchar(',');
 _putchar(' ');
