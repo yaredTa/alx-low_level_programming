@@ -4,17 +4,19 @@
 /**
  * print_times_table - prints the time table n time, starting with 0
  * followed by a new line
- * @n: print from this number
+ * @n: print tabel n times 
  */
 
 void print_times_table(int n)
 {
 int f;
+int i = 0;
+int j = 0;
 if (n > 0 && n <=15)
 {
-for (int i = 0; i <= n; i++)
+while (i <= n)
 {
-for (int j = 0; j <= n; j++)
+while (j <= n)
 {
 f = i*j;
 if (j == 0)
@@ -41,7 +43,9 @@ _putchar(' ');
 _putchar(f + '0');
 }
 }
+j++;
 }
+i++;
 _putchar('\n');
 }
 }
