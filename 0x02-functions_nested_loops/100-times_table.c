@@ -11,12 +11,13 @@ void print_times_table(int n)
 {
 int f;
 int i = 0;
-int j = 0;
+
 int b;
 if (n > 0 && n <=15)
 {
 while (i <= n)
 {
+int j = 0;
 while (j <= n)
 {
 f = i*j;
