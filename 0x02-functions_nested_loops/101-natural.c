@@ -9,13 +9,14 @@
  */
 int main(void)
 {
-int f = 0;
-for (int i = 1; i < 1024; i++)
+int f, i = 0;
+while (i < 1024)
 {
 if (i % 3 == 0 || i % 5 == 0)
 {
 f += i;
 }
+i++;
 }
 printf("%d\n", f);
 return (0);
