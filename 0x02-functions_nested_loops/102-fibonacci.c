@@ -15,17 +15,12 @@ int main(void)
 
 	while (i <= 50)
 	{
-		if (j != 20365011074)
-		{
-			printf("%ld, ", j);
-		} else
-		{
-			printf("%ld\n", j);
-		}
-		g = j + f;
-		j = f;
-		f = g;
-		i++;
+    printf("%d\n", j);
+
+	g = j + f;
+	j = f;
+	f = g;
+	i++;
 	}
 
 	return (0);
