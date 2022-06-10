@@ -7,7 +7,6 @@
 void print_most_numbers(void)
 {
 	int i;
-
 	while (i < 10)
 	{
 		if (i != 2 && i != 4)
@@ -16,6 +15,5 @@ void print_most_numbers(void)
 		}
 		i++;
 	}
-
 	_putchar('\n');
 }
