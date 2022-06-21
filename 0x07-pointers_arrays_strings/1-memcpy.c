@@ -3,11 +3,11 @@
 
 /**
  * *_memset - fills memory with a constant byte
- * @s: memory area to be filled
- * @b: char to copy
- * @n: number of times to copy b
+ * @dest: memory area to be filled
+ * @src: char to copy
+ * @n: number of times to copy in src
  *
- * Return: pointer to the memory area s
+ * Return: pointer to the memory area dest
  */
 char *_memcpy(char *dest, char *src, unsigned int n)
 {
@@ -16,8 +16,7 @@ char *_memcpy(char *dest, char *src, unsigned int n)
 	for (i = 0; i < n; i++)
 	{
 		dest[i] = src[i];
-	}	
+	}
 	
 	return (dest);
-
 }
